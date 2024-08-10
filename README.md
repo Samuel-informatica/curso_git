@@ -1,4 +1,4 @@
-Git e GitHub
+<h1>Git e GitHub</h1>
 
 Introdução
 
@@ -153,5 +153,11 @@ Análise e inspeção
 
 - git diff [arquivo_a] [arquivo_b] - para ver a diferença entre as branches 
 - git shortlog - Log e mostra um resumo desse projeto
+
+----------------------------------------------------
+
+Administração do repositório
+
+
 
 ----------------------------------------------------
