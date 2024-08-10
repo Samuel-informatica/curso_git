@@ -66,21 +66,21 @@ Comandos
 
 - git status - mostra status do git, podendo ver se há modificações pendentes ou pastas
 - git init - inicia o repostiroio dentro da pasta que está (.git)
-git commit -m "Hello World Git" - define o descrição do arquivo que está subindo
-git commit -a -m "Hello World Git" - para vários arquivos ao mesmo tempo
-git remote add origin https://github.com/Samuel-informatica/curso_git.git - defini a origem do repositorio
-git push -u origin main - conexão com o github (respositório que foi definido)
-git remote -v - vê a origin do repositório
-git add [NOME DO ARQUIVO OU PASTA].extensão - exemplo git add teste.html
-git add . - adiciona todos os arquivos que tem pendente ou alterações
-git pull - sincronizar o local com as mudanças do remoto
-git clone [url do repositorio] . - clonar repositório
-git rm [nome do arquivo] - remover/deletar arquivo
-git log - Acessar logs de modificações feitas no projeto
-git mv [nome do arquivo] [nome do novo local] - mover o arquivo de lugar
-git mv [local do arquivo+nome] [local do arquivo+novo_nome] - renomear arquivo
-git checkout [nome do arquivo]- retorna ao estado original
-git reset --hard origin/main - reseta os arquivos, o último estado do arquivo.
+- git commit -m "Hello World Git" - define o descrição do arquivo que está subindo
+- git commit -a -m "Hello World Git" - para vários arquivos ao mesmo tempo
+- git remote add origin https://github.com/Samuel-informatica/curso_git.git - defini a origem do repositorio
+- git push -u origin main - conexão com o github (respositório que foi definido)
+- git remote -v - vê a origin do repositório
+- git add [NOME DO ARQUIVO OU PASTA].extensão - exemplo git add teste.html
+- git add . - adiciona todos os arquivos que tem pendente ou alterações
+- git pull - sincronizar o local com as mudanças do remoto
+- git clone [url do repositorio] . - clonar repositório
+- git rm [nome do arquivo] - remover/deletar arquivo
+- git log - Acessar logs de modificações feitas no projeto
+- git mv [nome do arquivo] [nome do novo local] - mover o arquivo de lugar
+- git mv [local do arquivo+nome] [local do arquivo+novo_nome] - renomear arquivo
+- git checkout [nome do arquivo]- retorna ao estado original
+- git reset --hard origin/main - reseta os arquivos, o último estado do arquivo.
 
 ----------------------------------------------------
 
@@ -93,11 +93,11 @@ O que é gitHuB
 
 Git Ignore
 
-Para ignorar arquivos basta criar um arquivo dentro do projeto com o nome .gitignore, dentro desse arquivo definimos os arquivos que devem ser ignorados
+- Para ignorar arquivos basta criar um arquivo dentro do projeto com o nome .gitignore, dentro desse arquivo definimos os arquivos que devem ser ignorados
 
-Primeiro é preciso adicionar no git ignore para depois adicionar os arquivos que deseja ignorar
+- Primeiro é preciso adicionar no git ignore para depois adicionar os arquivos que deseja ignorar
 
-Dando o add . no gitignore > commit > push
+- Dando o add . no gitignore > commit > push
 
 ----------------------------------------------------
 
@@ -115,24 +115,24 @@ O que é Branch?
 
 Criar e visualizar Branches - Comandos
 
-git branch - Para visualizar basta usar o comando
-git branch [nome] - Para criar branch basta usar o seguinte comando
-git branch -d ou --delete - Deletar branch
-git checkout -b [nome da branch] - Mudar de Branch e cria ao mesmo tempo
-git chackout [nome da branch] - Mudança de branch
-git merge [nome] - Comando para unir as branch
-git stash - Salvar modificações atuais em uma memória do git para poder refazer o código, porém dá para recuperar
-git stash list - vamos receber todas as stash que foi criado
-git stash list apply [numero] - recuperar a stash especifica
-git stash show -p [numero] - visualizar as alterações na splash
-git stash drop [numero] - deleta a stash especifica
-git stash clear - deleta todas as stash
-git tag -a [define nome da tag] -m "[mensagem]" - Define o nome de cada versão por tag
-git tag - mostra todas as tags criadas
-git show [nome] - Verificar os detalhes, o que foi alterado
-git checkout [nome da tag] - acessar o código da tag
-git push origin [nome da tag] - mandar para o hub apenas a tag especifica
-git push origin --tags - Manda todas as tags criadas
+- git branch - Para visualizar basta usar o comando
+- git branch [nome] - Para criar branch basta usar o seguinte comando
+- git branch -d ou --delete - Deletar branch
+- git checkout -b [nome da branch] - Mudar de Branch e cria ao mesmo tempo
+- git chackout [nome da branch] - Mudança de branch
+- git merge [nome] - Comando para unir as branch
+- git stash - Salvar modificações atuais em uma memória do git para poder refazer o código, porém dá para recuperar
+- git stash list - vamos receber todas as stash que foi criado
+- git stash list apply [numero] - recuperar a stash especifica
+- git stash show -p [numero] - visualizar as alterações na splash
+- git stash drop [numero] - deleta a stash especifica
+- git stash clear - deleta todas as stash
+- git tag -a [define nome da tag] -m "[mensagem]" - Define o nome de cada versão por tag
+- git tag - mostra todas as tags criadas
+- git show [nome] - Verificar os detalhes, o que foi alterado
+- git checkout [nome da tag] - acessar o código da tag
+- git push origin [nome da tag] - mandar para o hub apenas a tag especifica
+- git push origin --tags - Manda todas as tags criadas
 
 ----------------------------------------------------
 
@@ -140,18 +140,18 @@ Compartilhamento e atualização - Repositórios
 
 Comandos
 
-git fetch - Localiza novas branches e mapear todos eles
-git submodule add [repo]- Faz trabalhar com outros repositóriosao mesmo tempo
-git submodule - apresenta todos submodulos
+- git fetch - Localiza novas branches e mapear todos eles
+- git submodule add [repo]- Faz trabalhar com outros repositóriosao mesmo tempo
+- git submodule - apresenta todos submodulos
 
-Para atualizar submodulos primeiro é preciso commitar as mudanças
-git push --recurse-submodules=on-demand - Mandar arquivos/alterações para dentro do repo do submodulo
+- Para atualizar submodulos primeiro é preciso commitar as mudanças
+- git push --recurse-submodules=on-demand - Mandar arquivos/alterações para dentro do repo do submodulo
 
 ----------------------------------------------------
 
 Análise e inspeção
 
-git diff [arquivo_a] [arquivo_b] - para ver a diferença entre as branches 
-git shortlog - Log e mostra um resumo desse projeto
+- git diff [arquivo_a] [arquivo_b] - para ver a diferença entre as branches 
+- git shortlog - Log e mostra um resumo desse projeto
 
 ----------------------------------------------------
