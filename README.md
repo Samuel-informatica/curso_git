@@ -64,8 +64,8 @@ Criando repositório
 ----------------------------------------------------
 Comandos
 
-git status - mostra status do git, podendo ver se há modificações pendentes ou pastas
-git init - inicia o repostiroio dentro da pasta que está (.git)
+- git status - mostra status do git, podendo ver se há modificações pendentes ou pastas
+- git init - inicia o repostiroio dentro da pasta que está (.git)
 git commit -m "Hello World Git" - define o descrição do arquivo que está subindo
 git commit -a -m "Hello World Git" - para vários arquivos ao mesmo tempo
 git remote add origin https://github.com/Samuel-informatica/curso_git.git - defini a origem do repositorio
