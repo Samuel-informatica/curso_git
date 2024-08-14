@@ -187,3 +187,10 @@ Administração do repositório
 ----------------------------------------------------
 
 <h2>Seção 8 - Explorando e entendendo o GITHUB</h2>
+
+- Foi apresentado nessa aula de como criar um repositório com suas padronizações, contendo o nome do respositório, uma descrição do repositório, se desejamos o repositório publico ou privado (somente você teria acesso), por fim tendo algumas marcações que devemos ter para que esse repositório já venha em um padrão, um deles que seria o README, que seria uma descrição completa do projeto, exemplo, o que precisa baixar, quais os comandos que precisa fazer para rodar o projeto, atualizações, aplicativos, entre outros. Adicionar o .gitignore já de inicio é uma boa práica, caso já tenham a linguagem pré-definidas pode já selecionar essa linguagem para vir diversos código por padrão dentro desse arquivo para ignorar coisas desnecessárias e por fim ter a licença em seu código, caso não tenhamos certeza de como funciona as licenças devemos marcar a [MITLicense]
+
+- Aba [CODE] como funciona essa aba:
+	- Foi apresentado como funciona cada parte dentro dessa aba
+
+----------------------------------------------------
