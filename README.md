@@ -1,4 +1,4 @@
-<h1>Git e GitHub</h1>
+<h1 style{text-align="center" }>Git e GitHub</h1>
 
 Introdução
 
@@ -177,4 +177,13 @@ Administração do repositório
 	- reword - serve para renomear um commit recebido de [NOME_DA_BRANCH_PRIVATE] que não ficou tão claro;
 	- Sempre que fizer essas alterações devemos salvar o arquivo e o comando seria: [:x!+enter]
 
+- Boas mensagens de commit:
+	- Separar assunto do corpo da mensagem
+	- Assuntos no máximo de 50 caracteres
+	- Assuntos com letra inicial maiúscula
+	- Corpo de mensagem no máximo 72 caracteres
+	- Expolicar como e porque do commit e não como o código foi escrito
+
 ----------------------------------------------------
+
+<h2>Seção 8 - Explorando e entendendo o GITHUB</h2>
