@@ -148,22 +148,33 @@ Comandos
 - git push --recurse-submodules=on-demand - Mandar arquivos/alterações para dentro do repo do submodulo
 
 ----------------------------------------------------
-
+<h2>Seção 5 - Análise e inspeção</h2>
 Análise e inspeção
 
 - git diff [arquivo_a] [arquivo_b] - para ver a diferença entre as branches 
 - git shortlog - Log e mostra um resumo desse projeto
 
 ----------------------------------------------------
-
+<h2>Seção 6 - Administração do repositório</h2>
 Administração do repositório
 
 - git clean -f - força a limpeza dos erros que aparecem no git status
 - git gc - (Garbage Collector) identifica arquivos que não são mais necessários e os excluí
 - git fsck - Verifica possíveis corrupções de arquivos
 - git reflog - mapeia todos os passos no repositório, até uma mudança na branch  - tem tempo de expiração de 30 dias
-- git archive --format zip --output [NOME_DO_ARQUIVO].zip main
+- git archive --format zip --output [NOME_DO_ARQUIVO].zip main - Para criar um arquivo zip
 
 // observação: com o git reflog podemos navegar com o comando reset --hard assim podendo acessar partes de arquivos que foram já deletados ou navegar até outro ponto que deseja, porém é dentro do período que o reflog tem de expiração.
+
+----------------------------------------------------
+
+<h2>Seção 7 - Melhorando Commits do projeto</h2>
+
+- Suma importancia de termos bons commits com nome adequados, uma padronizaçãso para que a leitura e analise dos commits sejam claros e eficiente para acabar não atrapalhando no dia a dia de um desenvolvedor.
+
+- git rebase [NOME_DA_BRANCH] [NOME_DA_BRANCH_PRIVATE] -i - essa funcionalidade serve para que a NOME_DA_BRANCH receba apenas os commits que faz sentido serem commitados, para que isso de fato suba apenas os commits corretos, devemos fazer uma configuração onde que:
+	- squash - serve para excluir commits que não queremos que a [NOME_DA_BRANCH] receba;
+	- reword - serve para renomear um commit recebido de [NOME_DA_BRANCH_PRIVATE] que não ficou tão claro;
+	- Sempre que fizer essas alterações devemos salvar o arquivo e o comando seria: [:x!+enter]
 
 ----------------------------------------------------
