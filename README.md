@@ -193,4 +193,14 @@ Administração do repositório
 - Aba [CODE] como funciona essa aba:
 	- Foi apresentado como funciona cada parte dentro dessa aba
 
+- Aba [ISSUE] como funciona essa aba:
+	- Podemos criar tarefas ou bugs do proejto
+	- Interessante para se organizar, se mantendo ciente do que precisa criar ou corrigir
+	- Normalmente é criado com markdown
+
+- Aba [Pull_Request] como funciona essa aba:
+	- É onde os coloaboradores enviam os códigos para resolver as issues ou adicionar novas funcionalidades no projeto
+	- A ideia idela seria sempre enviar por pull request e não direto na master/main
+	- O pull request vem de um nova branch criado no projeto e enviado para o repo, com o incremento de código
+	
 ----------------------------------------------------
