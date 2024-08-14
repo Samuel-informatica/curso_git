@@ -158,6 +158,8 @@ Análise e inspeção
 
 Administração do repositório
 
-
+- git clean -f - força a limpeza dos erros que aparecem no git status
+- git gc - (Garbage Collector) identifica arquivos que não são mais necessários e os excluí
+- git fsck - Verifica possíveis corrupções de arquivos
 
 ----------------------------------------------------
