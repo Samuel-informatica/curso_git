@@ -161,5 +161,9 @@ Administração do repositório
 - git clean -f - força a limpeza dos erros que aparecem no git status
 - git gc - (Garbage Collector) identifica arquivos que não são mais necessários e os excluí
 - git fsck - Verifica possíveis corrupções de arquivos
+- git reflog - mapeia todos os passos no repositório, até uma mudança na branch  - tem tempo de expiração de 30 dias
+- git archive --format zip --output [NOME_DO_ARQUIVO].zip main
+
+// observação: com o git reflog podemos navegar com o comando reset --hard assim podendo acessar partes de arquivos que foram já deletados ou navegar até outro ponto que deseja, porém é dentro do período que o reflog tem de expiração.
 
 ----------------------------------------------------
