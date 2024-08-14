@@ -202,5 +202,37 @@ Administração do repositório
 	- É onde os coloaboradores enviam os códigos para resolver as issues ou adicionar novas funcionalidades no projeto
 	- A ideia idela seria sempre enviar por pull request e não direto na master/main
 	- O pull request vem de um nova branch criado no projeto e enviado para o repo, com o incremento de código
-	
+
+- Aba [Action] como funciona essa aba:
+	- Onde cria automações de deploy com integrações em outros serviços
+	- Estudar CI/CD
+
+
+- Aba [Project] como funciona essa aba:
+	- Podemos criar quadros de projetos 
+	- Esse processo é conehcido como Kanban, podendo organizar seu time, criando notas que podem virar issues
+	- estrtura interessante: backlog, retorno de qualidade, desenvolvimento, teste, finalizadas
+
+
+- Aba [WIKI] como funciona essa aba:
+	- Criar documentação mais extensa do projeto
+	- Descrever funcionalidades, bugs conhecidos e não solucionados
+	- A ideia seria uma área de conhecimento apenas
+
+- Aba [Insights] como funciona essa aba:
+	- Informações detalhas do projeto
+
+
+-[GISTS]
+	- Saõ pequenos blocos de códigos que podem ser hospedados no github
+	- Seria um mini repo
+	- Para criar o gists, basta clicar no "+" no canto superior direito > criar gists
+
+----------------------------------------------------
+
+<h2>Seção 9 - Markdown </h2>
+
+
+
+
 ----------------------------------------------------
