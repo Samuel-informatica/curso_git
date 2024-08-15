@@ -248,4 +248,10 @@ Administração do repositório
 	- Adicionar link - ![texto_link](coloque o link aqui)
 	- imagem com link - [![texto_link](coloque o link aqui)](coloque o link)
 	- Inserir código - ``` ``` 
+	- Tarefas concluídas - [x]
+	- Tarefas não conluídas - []
+
 ----------------------------------------------------
+
+## Seção 10 - Projeto Prtofólio com GitHubg Pages
+
