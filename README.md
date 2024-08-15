@@ -244,7 +244,7 @@ Administração do repositório
 	- Italico - _  _ ou *  *
 	- Lista não ordenada - * +texto
 	- Lista ordenada - 1.  +texto
-	- Adicionar Imagem - ![texto_alt](link da imagem);
-	- Adicionar link - ![texto_link](link);
+	- Adicionar Imagem - ![texto_alt](link da imagem)
+	- Adicionar link - ![texto_link](coloque o link aqui)
 	-
 ----------------------------------------------------
