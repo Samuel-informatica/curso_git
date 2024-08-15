@@ -223,7 +223,7 @@ Administração do repositório
 	- Informações detalhas do projeto
 
 
--[GISTS]
+- [GISTS]
 	- Saõ pequenos blocos de códigos que podem ser hospedados no github
 	- Seria um mini repo
 	- Para criar o gists, basta clicar no "+" no canto superior direito > criar gists
