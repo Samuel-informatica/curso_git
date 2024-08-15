@@ -240,7 +240,7 @@ Administração do repositório
 - Comenados para editar os textos:
 	- h1 - #
 	- h2 - ##
-	- Negrito - **texto** ou __texto__
-	- Italico - _texto_ ou *texto*
+	- Negrito - ** ** ou __ __
+	- Italico - _  _ ou *  *
 
 ----------------------------------------------------
