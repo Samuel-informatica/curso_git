@@ -242,5 +242,7 @@ Administração do repositório
 	- h2 - ##
 	- Negrito - ** ** ou __ __
 	- Italico - _  _ ou *  *
+	- Lista não ordenada - * +texto
+	- Lista ordenada - 1.  +texto
 
 ----------------------------------------------------
