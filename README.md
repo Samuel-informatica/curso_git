@@ -246,5 +246,6 @@ Administração do repositório
 	- Lista ordenada - 1.  +texto
 	- Adicionar Imagem - ![texto_alt](link da imagem)
 	- Adicionar link - ![texto_link](coloque o link aqui)
-	-
+	- imagem com link - [![texto_link](coloque o link aqui)](coloque o link)
+	- Inserir código - ``` ``` 
 ----------------------------------------------------
