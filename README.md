@@ -236,6 +236,11 @@ Administração do repositório
 - O que é um markdown?
 	- É uma forma de estilização no texto, deixando mais claro e objetivo o seu README
 	- Dando melhor experiência para o usuário
-	- 
+
+- Comenados para editar os textos:
+	- h1 - #
+	- h2 - ##
+	- Negrito - **texto** ou __texto__
+	- Italico - _texto_ ou *texto*
 
 ----------------------------------------------------
