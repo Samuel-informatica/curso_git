@@ -1,4 +1,4 @@
-<h1 style{text-align="center" }>Git e GitHub</h1>
+# Git e GitHub
 
 Introdução
 
@@ -136,7 +136,7 @@ Criar e visualizar Branches - Comandos
 
 ----------------------------------------------------
 
-Compartilhamento e atualização - Repositórios
+## Seção 4 - Compartilhamento e atualização - Repositórios
 
 Comandos
 
@@ -148,14 +148,14 @@ Comandos
 - git push --recurse-submodules=on-demand - Mandar arquivos/alterações para dentro do repo do submodulo
 
 ----------------------------------------------------
-<h2>Seção 5 - Análise e inspeção</h2>
+## Seção 5 - Análise e inspeção
 Análise e inspeção
 
 - git diff [arquivo_a] [arquivo_b] - para ver a diferença entre as branches 
 - git shortlog - Log e mostra um resumo desse projeto
 
 ----------------------------------------------------
-<h2>Seção 6 - Administração do repositório</h2>
+## Seção 6 - Administração do repositório
 Administração do repositório
 
 - git clean -f - força a limpeza dos erros que aparecem no git status
@@ -168,7 +168,7 @@ Administração do repositório
 
 ----------------------------------------------------
 
-<h2>Seção 7 - Melhorando Commits do projeto</h2>
+## Seção 7 - Melhorando Commits do projeto
 
 - Suma importancia de termos bons commits com nome adequados, uma padronizaçãso para que a leitura e analise dos commits sejam claros e eficiente para acabar não atrapalhando no dia a dia de um desenvolvedor.
 
@@ -186,7 +186,7 @@ Administração do repositório
 
 ----------------------------------------------------
 
-<h2>Seção 8 - Explorando e entendendo o GITHUB</h2>
+## Seção 8 - Explorando e entendendo o GITHUB
 
 - Foi apresentado nessa aula de como criar um repositório com suas padronizações, contendo o nome do respositório, uma descrição do repositório, se desejamos o repositório publico ou privado (somente você teria acesso), por fim tendo algumas marcações que devemos ter para que esse repositório já venha em um padrão, um deles que seria o README, que seria uma descrição completa do projeto, exemplo, o que precisa baixar, quais os comandos que precisa fazer para rodar o projeto, atualizações, aplicativos, entre outros. Adicionar o .gitignore já de inicio é uma boa práica, caso já tenham a linguagem pré-definidas pode já selecionar essa linguagem para vir diversos código por padrão dentro desse arquivo para ignorar coisas desnecessárias e por fim ter a licença em seu código, caso não tenhamos certeza de como funciona as licenças devemos marcar a [MITLicense]
 
@@ -230,9 +230,12 @@ Administração do repositório
 
 ----------------------------------------------------
 
-<h2>Seção 9 - Markdown </h2>
+## Seção 9 - Markdown
 
 
-
+- O que é um markdown?
+	- É uma forma de estilização no texto, deixando mais claro e objetivo o seu README
+	- Dando melhor experiência para o usuário
+	- 
 
 ----------------------------------------------------
